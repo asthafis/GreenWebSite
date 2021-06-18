@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.16" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Dynamic" Version="1.0.2" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebGym.Interface\WebGym.Interface.csproj" />
+    <ProjectReference Include="..\WebGym.Models\WebGym.Models.csproj" />
+    <ProjectReference Include="..\WebGym.ViewModels\WebGym.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+      <HintPath>..\..\..\..\Users\e5604868\.nuget\packages\microsoft.extensions.configuration.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
